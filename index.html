@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      img {
+        border-radius:50% ;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="20"> <!--cellspacing attribute takes value in % and % depends upon parent's size-->
+      <!--since we are not using css in this file, we can use html table to structure a layout -->
+      <tr>
+        <td>  <img src="angela.jpg" alt="angela profile picture" height="150px" width="150px"></td>
+        <td><h1>Angela Yu</h1>
+        <p> <em>Founder and CTO of <strong><a href="https://www.google.com/search?q=google&oq=goo&aqs=chrome.1.69i57j0j69i60l3j69i65l3.5639j0j7&sourceid=chrome&ie=UTF-8">The App Brewery<a></strong></em></p>
+        <p>I am an ios and Web Developer. I 💜 coffee and brew my beers.</p></td>
+      </tr>
+    </table>
+
+    <hr>
+    <h3>Books and Teaching</h3>
+    <ul>
+      <li>The complete ios App Development Bootcamp.</li>
+      <li>The complete Web Development Bootcamp.</li>
+    </ul>
+    <hr>
+    <h3>My Hobbies</h3>
+    <ol>
+      <li><a href="https://beerandbrewing.com/"  target="_blank">Beer brewing</a></li>
+      <li><a href="https://www.britannica.com/sports/martial-art" target="_blank">Martial arts</a></li>
+      <li><a href="https://www.honda2wheelersindia.com/products/motorcycle" target="_blank">Motorcycles</a></li>
+    </ol>
+    <hr>
+    <!-- The <strong> element is for content that is of greater importance, while the <b> element is used to draw attention to text without indicating that it's more important. -->
+    <h3>Work Experience</h3>
+    <table cellspacing="10"> <!--it is not necessary to use thead, tbody and tfoot tag but they are defined cause if we want to design each part of the table differently.-->
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010-2013</td>
+          <td>Lead Developer at Tempo App</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Reasercher at the Cognitive Neurosciences </td>
+        </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+
+      <tr>  <!--main row also it is the only row in main table-->
+        <table cellspacing="10"> <!--main table-->
+        <td> <!--1st td of the main row of main table-->
+          <table cellspacing="10">
+            <tr>
+              <td>Web Development</td>
+              <td>&ensp;⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>ios Development</td>
+              <td>&emsp;&emsp;&emsp;⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Photography</td>
+              <td>&emsp;&emsp;&emsp;&emsp;⭐⭐</td
+            </tr>
+          </table>
+        </td>
+
+        <td> <!--2nd td of the main row of main table-->
+          <table cellspacing="10">
+            <tr>
+              <td>Java</td>
+              <td>&emsp;&emsp;&emsp;&emsp;⭐⭐</td>
+            </tr>
+            <tr>
+              <td>NODE JS</td>
+              <td>&ensp;⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>PHP</td>
+              <td>&emsp;&emsp;⭐⭐⭐⭐</td
+            </tr>
+          </table>
+        </td>
+
+      </tr>
+    </table>
+    <hr size="2">
+    <strong><a href="contact_me.html">Contact me</a></strong>
+  </body>
+</html>
+<!-- In computer programming, boilerplate code or just boilerplate are sections of code that have to be included in many places
+with little or no alteration.
+When using languages that are considered verbose(In computer science, 'verbose' is basically used for long lines of codes when that particular code can be written in few lines. Compacting the number of line for same logic.),
+ the programmer must write much code to accomplish only minor functionality.
+type ! and hit tab you will get the boilerplate code and as mentioned in the definition it   -->
